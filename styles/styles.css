@@ -52,6 +52,61 @@ main {
     color: #212529; 
   }
 
+.modoNoche {
+    width: 40px;
+}
+
+/* MODO NOCHE: Se activa al hacer click en la luna */
+body.modo-noche {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+body.modo-noche header,
+body.modo-noche .mi-navbar, body.modo-noche footer, body.modo-noche h2, body.modo-noche td {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.modo-noche main {
+    background-color: #575757;
+}
+
+body.modo-noche .nav-link {
+    color: #f0f0f0;
+}
+
+body.modo-noche h4 {
+    color: #121212;
+}
+
+body.modo-noche img {
+    border-color: #121212 !important;
+}
+
+body.modo-noche thead th, body.modo-noche .materia, body.modo-noche .materias-listado li, body.modo-noche .materias-listado a, body.modo-noche .caja {
+    background-color: #8d8a8a;
+    color: white;
+}
+
+body.modo-noche input, body.modo-noche textarea  {
+    background-color: #8d8a8a;
+    color: white;
+    border-color: #121212;
+
+}
+
+body.modo-noche .boton:hover {
+    background-color: #121212;
+    border-color: #8d8a8a;
+    color: #8d8a8a;
+}
+
+#luna {
+    cursor: pointer;
+}
+
+
 /* ESTILOS DE TITULOS */
 
 h2 {

@@ -11,6 +11,7 @@
     <!-- Estilos CSS -->
     <link href="styles/styles.css" rel="stylesheet">
 
+
 </head>
 <body>
 
@@ -33,6 +34,7 @@
                         <a class="nav-link" href="contacto.html">Contacto</a>
                     </div>
                 </div>
+                <img class="modoNoche" id="luna" src="img/modoNoche/luna.png" alt="Luna para el modo noche">
             </div>
         </nav>
     </header>
@@ -41,18 +43,18 @@
     <main class="contenido-principal">
       <h2>Contacto</h2>
       <!-- Formulario de contacto -->
-      <form class="formulario-contacto">
+      <form id="formulario_contacto" class="formulario-contacto">
         <label for="ncom"  >Nombre y apellido:</label>
-        <input type="text" placeholder="Juan Cristiano" id="ncom" required>
+        <input type="text" placeholder="Juan Cristiano" id="ncom" >
         <label for="tel" >Teléfono: </label>
-        <input type="tel" placeholder="11 6707-2851" id="tel" required>
+        <input type="tel" placeholder="11 6707-2851" id="tel" >
         <label for="Mail">Mail: </label>
-        <input type="email" placeholder="juancristiano@gmail.com" id="Mail" required>
+        <input type="text" placeholder="juancristiano@gmail.com" id="Mail" >
         <label for="Asunto">Asunto: </label>
-        <input type="text" placeholder=Consulta id="Asunto" required>
+        <input type="text" placeholder=Consulta id="Asunto" >
         <label for="mensaje">Mensaje: </label>
-        <textarea id="mensaje" placeholder="Escribí tu mensaje acá" required></textarea>
-        <input class="boton" type="submit" value="Enviar">
+        <textarea id="mensaje" placeholder="Escribí tu mensaje acá" ></textarea>
+        <input class="boton" type="submit" value="Enviar" id="boton_enviar">
       </form>
     </main>
 
@@ -64,6 +66,9 @@
       <p>Todos los derechos reservados.</p>
       <p>Está prohibida la reproducción total o parcial de este sitio sin autorización previa.</p>
   </footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
